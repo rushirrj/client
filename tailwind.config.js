@@ -5,7 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors:{}
+      colors:{
+        navBlue:"rgb(12,16,54)"
+      }
     },
   },
   plugins: [],
