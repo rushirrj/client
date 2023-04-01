@@ -1,12 +1,10 @@
-import logo from './logo.svg';
+import View from './components/View'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-         <h1 className="text-3xl font-bold underline">
-          Hello world!
-        </h1>
+    <div className="App App-header">
+         <View />
     </div>
   );
 }
